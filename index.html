@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventra — Discover & Register for Amazing Events</title>
+  <meta name="description" content="Browse upcoming music, tech, sports, art and business events and register in seconds.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+  <main>
+    <section class="hero"><div class="container hero-grid">
+      <div>
+        <span class="eyebrow">🎉 12+ events happening near you</span>
+        <h1>Find events you'll <span class="grad-text">love</span>. Register in seconds.</h1>
+        <p class="lead">From music festivals and hackathons to workshops and marathons — explore the best upcoming events and reserve your spot with a few clicks.</p>
+        <div class="hero-actions"><a href="events.html" class="btn">Explore Events →</a><a href="#featured" class="btn btn-ghost">Featured Events</a></div>
+        <div class="hero-stats"><div><b>12+</b><span>Events</span></div><div><b>7</b><span>Categories</span></div><div><b>5K+</b><span>Attendees</span></div></div>
+      </div>
+      <a href="#" id="nextCard" class="next-card" aria-label="Next upcoming event"></a>
+    </div></section>
+
+    <section id="featured"><div class="container">
+      <div class="sec-head"><h2>Featured Events</h2><p>Hand-picked experiences you don't want to miss.</p></div>
+      <div class="grid" id="featuredGrid"></div>
+    </div></section>
+
+    <section class="alt"><div class="container">
+      <div class="sec-head"><h2>Browse by Category</h2><p>Whatever your interest, there's an event for you.</p></div>
+      <div class="cat-grid" id="catGrid"></div>
+    </div></section>
+
+    <section><div class="container">
+      <div class="sec-head"><h2>Upcoming Events</h2><p>Search and filter all events happening soon.</p></div>
+      <div class="toolbar">
+        <div class="search"><input id="search" type="search" placeholder="Search events or venues…" aria-label="Search events"></div>
+        <div class="filters" id="filters" role="group" aria-label="Filter by category"></div>
+      </div>
+      <div class="grid" id="eventGrid"></div>
+      <div style="text-align:center;margin-top:40px"><a href="events.html" class="btn btn-ghost">View all events →</a></div>
+    </div></section>
+
+    <section class="alt"><div class="container">
+      <div class="sec-head"><h2>How It Works</h2><p>Three simple steps to your next great experience.</p></div>
+      <div class="steps">
+        <div class="step reveal"><div class="ico">🔎</div><h3>1. Discover</h3><p>Search or filter by category to find events that match your interests.</p></div>
+        <div class="step reveal"><div class="ico">📖</div><h3>2. Explore details</h3><p>View the venue, schedule, price, highlights and seats still available.</p></div>
+        <div class="step reveal"><div class="ico">🎟️</div><h3>3. Register</h3><p>Fill in a quick form and get an instant confirmation with your booking ID.</p></div>
+      </div>
+    </div></section>
+
+    <section><div class="container"><div class="cta-band reveal">
+      <h2>Ready for your next event?</h2><p>Spots fill up fast. Reserve yours today.</p><a href="events.html" class="btn">Browse All Events</a>
+    </div></div></section>
+  </main>
+  <script src="js/data.js"></script><script src="js/main.js"></script><script src="js/home.js"></script>
+</body>
+</html>

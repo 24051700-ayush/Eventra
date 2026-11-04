@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>All Events — Eventra</title>
+</head>
+<body data-page="events">
+  <main>
+    <div class="container page-banner"><h1>All <span class="grad-text">Events</span></h1><p>Search, filter and sort to find your perfect event.</p></div>
+    <section style="padding-top:20px"><div class="container">
+      <div class="toolbar">
+        <div class="search"><input id="search" type="search" placeholder="Search by name, venue or keyword…" aria-label="Search events"></div>
+        <select id="sort" class="sort" aria-label="Sort events">
+          <option value="date">Sort: Soonest first</option><option value="priceLow">Price: Low to high</option><option value="priceHigh">Price: High to low</option><option value="name">Name: A–Z</option>
+        </select>
+      </div>
+      <div class="filters" id="filters" role="group" aria-label="Filter by category" style="margin-bottom:26px"></div>
+      <p class="result-count" id="count"></p>
+      <div class="grid" id="eventGrid"></div>
+    </div></section>
+  </main>
+  <script src="js/data.js"></script><script src="js/main.js"></script><script src="js/events.js"></script>
+</body></html>
