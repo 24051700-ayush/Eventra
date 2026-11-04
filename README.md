@@ -11,7 +11,7 @@
 A modern, fully responsive event management website where users can explore upcoming events, search and filter them, view details and register with validated forms.
 Built with **HTML5, CSS3 and vanilla JavaScript** (no frameworks, no build tools).
 
-**Live demo:** _add your deployed link here_  
+**Live demo:** https://eventra-gold.vercel.app
 **Repository:** https://github.com/24051700-ayush/Eventra.git
 
 ## Features
